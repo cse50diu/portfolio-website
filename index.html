@@ -12,6 +12,7 @@
     />
 
     <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://kit.fontawesome.com/ed2d0d3695.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="header">
@@ -31,8 +32,8 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact</button>
+          <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+          <button id="contact-btn" class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
         </div>
         <img
           class="profile-pic"
@@ -201,12 +202,13 @@
           </div>
         </div>
         <div class="download-cv">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
         </div>
       </section>
     </main>
 
     <footer>
+      <div class="footer-container">
       <div class="footer-col">
         <h3 class="footer-title">Lets Connect</h3>
         <p class="footer-discription">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
@@ -224,9 +226,13 @@
             <input type="text" name="" id="" placeholder="Name">
             <input type="email" name="" id="" placeholder="Email">
             <textarea name="" id="" cols="30" rows="10" placeholder="Massage"></textarea>
-            <input type="button" value="Submit">
+            <input id="botton" class="btn-primary" type="button" value="Submit">
         </form>
       </div>
+    </div>
+    <hr class="footer-line">
+    <p class="copyright">2023 © Copyright Owned by Programming-Hero</p>
+    <!-- <hr class="footer-line2"> -->
     </footer>
   </body>
 </html>
